@@ -1,6 +1,7 @@
 autoUpdate:
   enabled: false
   schedule: ""
+bootConfigURL: https://jenkins-x-versions-bot-test:66d6d66e0a2b49f864f0ae3f8c90a64a7e901ef4@github.com/jenkins-x-versions-bot-test/environment-pr-873-14-mc-dev
 cluster:
   clusterName: pr-873-14-mc
   environmentGitOwner: jenkins-x-versions-bot-test
@@ -14,9 +15,9 @@ cluster:
   zone: europe-west1-c
 environments:
 - ingress:
-    domain: ""
+    domain: 104.155.113.201.nip.io
     externalDNS: false
-    namespaceSubDomain: ""
+    namespaceSubDomain: -jx.
     tls:
       email: ""
       enabled: false
@@ -48,7 +49,7 @@ environments:
 gitops: true
 helmfile: true
 ingress:
-  domain: ""
+  domain: 104.155.113.201.nip.io
   externalDNS: false
   namespaceSubDomain: -jx.
   tls:
